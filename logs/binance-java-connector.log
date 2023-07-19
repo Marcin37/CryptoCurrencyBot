@@ -134,3 +134,25 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "period_crypto_coi
 2023-07-19 19:38:48.370[1689788328370] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Starting ProtocolHandler ["http-nio-8080"]
 2023-07-19 19:38:48.387[1689788328387] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat started on port(s): 8080 (http) with context path ''
 2023-07-19 19:38:48.399[1689788328399] | INFO  | main       | c.c.C.CryptoInfoBotApplication       - Started CryptoInfoBotApplication in 4.279 seconds (JVM running for 4.876)
+2023-07-19 19:55:49.946[1689789349946] | INFO  | main       | c.c.C.CryptoInfoBotApplication       - Starting CryptoInfoBotApplication using Java 11.0.7 on DESKTOP-993ATTC with PID 9248 (C:\Users\paraf\IdeaProjects\CryptoInfoBot\target\classes started by paraf in C:\Users\paraf\IdeaProjects\CryptoInfoBot)
+2023-07-19 19:55:49.948[1689789349948] | INFO  | main       | c.c.C.CryptoInfoBotApplication       - No active profile set, falling back to default profiles: default
+2023-07-19 19:55:50.496[1689789350496] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-19 19:55:50.635[1689789350635] | INFO  | main       | o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 3 JPA repository interfaces.
+2023-07-19 19:55:51.132[1689789351132] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat initialized with port(s): 8080 (http)
+2023-07-19 19:55:51.142[1689789351142] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-19 19:55:51.142[1689789351142] | INFO  | main       | o.a.catalina.core.StandardService    - Starting service [Tomcat]
+2023-07-19 19:55:51.142[1689789351142] | INFO  | main       | o.a.catalina.core.StandardEngine     - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2023-07-19 19:55:51.242[1689789351242] | INFO  | main       | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring embedded WebApplicationContext
+2023-07-19 19:55:51.242[1689789351242] | INFO  | main       | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1257 ms
+2023-07-19 19:55:51.398[1689789351398] | INFO  | main       | o.h.jpa.internal.util.LogHelper      - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-19 19:55:51.441[1689789351441] | INFO  | main       | org.hibernate.Version                - HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-07-19 19:55:51.536[1689789351536] | INFO  | main       | o.h.annotations.common.Version       - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-07-19 19:55:51.613[1689789351613] | INFO  | main       | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Starting...
+2023-07-19 19:55:51.769[1689789351769] | INFO  | main       | com.zaxxer.hikari.HikariDataSource   - HikariPool-1 - Start completed.
+2023-07-19 19:55:51.784[1689789351784] | INFO  | main       | org.hibernate.dialect.Dialect        - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-07-19 19:55:52.459[1689789352459] | INFO  | main       | o.h.e.t.j.p.i.JtaPlatformInitiator   - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-19 19:55:52.465[1689789352465] | INFO  | main       | o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-19 19:55:53.028[1689789353028] | WARN  | main       | o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-19 19:55:53.225[1689789353225] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-19 19:55:53.242[1689789353242] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-19 19:55:53.253[1689789353253] | INFO  | main       | c.c.C.CryptoInfoBotApplication       - Started CryptoInfoBotApplication in 3.652 seconds (JVM running for 4.152)
